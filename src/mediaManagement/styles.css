@@ -1,0 +1,83 @@
+body{
+    background-color: hsl(242deg 34.03% 13.51%);
+    color: #fff;
+    padding: 0;
+}
+
+
+  
+  .content-btn-list .content-btn {
+    border: 2px solid #fff;
+    transition: border-color 0.3s;
+    margin: 10px 30px 0 0px;
+    border-radius: 30px;
+    padding: 15px 30px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #fff;
+  }
+  .content-btn-list .content-btn:hover {
+    border-color: #00f;
+    background: #2323ed;
+    color: #fff;
+  }  
+  .content-btn.active {
+    border-color: #00f;
+    background: #2323ed;
+    color: #fff;
+  }
+  .question-select-area{
+    border-top: 1px solid #3e3e3e;
+  }
+  select#select-question {
+    background: hsl(242deg 27.41% 20.39%);
+    padding: 15px 25px;
+    border: none;
+    color: #fff;
+    border-radius: 15px;
+    width: 700px;
+    font-size: 25px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.heading{
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: normal;
+  display: block;
+  margin: 30px 0;
+}
+.slider-num{
+  display: inline-flex;
+}
+.slider-num span {
+  margin: 0 5px;
+  font-size: 20px;
+  line-height: 25px;
+}
+h4{
+  font-size: 25px;
+  line-height: 30px;
+  margin: 0 0 40px;
+  font-weight: normal;
+}
+select .MuiSvgIcon-root {
+  color: "darkred",
+}
+@media only screen and (max-width: 768px) {
+  .form-question{
+    width: 100%;
+  }
+  select#select-question {
+    width: 100%;
+  }
+  .heading {
+    font-size: 20px;
+    line-height: 35px;
+    margin: 25px 0;
+}
+.slider-num{
+ width: 100%!important; 
+}
+
+}
