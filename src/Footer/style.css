@@ -1,29 +1,44 @@
-.footer-area{
+.footer-area {
     background-color: #000;
     color: #fff;
-}
-.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px; /* Add padding to the footer */
   }
-
-span{
-    display: block;
-    font-size: 20px;
-    line-height: 25px;
-}
-
-.footer button{
+  
+  .footer button {
     background-color: inherit;
     color: #fff;
     border: 1px solid #fff;
-    padding: 10px 40px;
+    padding: 10px 20px; /* Adjust padding for buttons */
     font-size: 21px;
     line-height: 30px;
     border-radius: 20px;
     cursor: pointer;
-}
-@media only screen and (max-width: 400px) {
-
-}
+  }
+  
+  .next-btn {
+    background-color: #fff !important; /* Set white background for Next button */
+    padding-right: 10px; /* Add padding for the ">>" */
+    color: #000 !important;
+  }
+  
+  /* Add media query for small screens */
+  @media only screen and (max-width: 400px) {
+    .footer {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer button {
+      margin-top: 10px; /* Add margin for buttons in small screens */
+    }
+  }
+  

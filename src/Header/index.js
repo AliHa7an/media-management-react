@@ -13,8 +13,12 @@ const Header = () => {
           </div>
 
           <div className="right-head">
+            <div>
             <span>Jane Cooper</span>
-            <img src={profile} alt="Profile" /> {/* Use the imported image */}
+             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+             <a href="#">Change profile</a>
+            </div>
+            <img className="avatar" src={profile} alt="Profile" /> 
           </div>
         </header>
       </div>

@@ -9,7 +9,6 @@ const Management = () => {
     sports: "sports",
     investments: "investments",
     fact: "fact",
-    // ... Add more keys as needed
   };
 
   const [selectedButton, setSelectedButton] = useState(allKeys.fun);
@@ -165,16 +164,7 @@ const Management = () => {
         <h2 className="heading">
           Which type of Sports content do you want to create?
         </h2>
-        {/* {selectedButton && (
-        <select>
-          {getDropDownOptions(selectedButton).map((option, index) => (
-            <option key={index} value={option}>
-              {option}
-            </option>
-          ))}
-        </select>
-      )} */}
-
+      
         <FormControl className="form-question">
           {selectedButton && (
             <select id="select-question" className="selct-question">

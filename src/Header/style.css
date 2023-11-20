@@ -12,7 +12,6 @@
     align-items: center;    
 }
 .right-head img {
-    width: 100px;
     margin-left: 20px;
 }
 span{
@@ -35,3 +34,9 @@ span{
         margin-bottom: 15px;
     }
 }
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }

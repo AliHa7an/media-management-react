@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container">
         <footer className="footer">
           <button className="back-btn">Back</button>
-          <button className="next-btn">Next</button>
+          <button className="next-btn">Next  {'>>'}</button>
         </footer>
       </div>
     </div>
